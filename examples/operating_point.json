@@ -1,0 +1,17 @@
+{
+  "duct": {
+    "length_m": 20.0,
+    "diameter_m": 0.2,
+    "friction_factor": 0.02,
+    "local_loss_sum": 1.0,
+    "density": 1.204
+  },
+  "fan": {
+    "samples": [
+      {"flow_m3s": 0.0, "total_pressure_pa": 300.0, "shaft_power_w": 120.0},
+      {"flow_m3s": 0.3, "total_pressure_pa": 250.0, "shaft_power_w": 110.0},
+      {"flow_m3s": 0.5, "total_pressure_pa": 140.0, "shaft_power_w": 90.0}
+    ],
+    "extrapolation": "reject"
+  }
+}
